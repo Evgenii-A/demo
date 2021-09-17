@@ -45,6 +45,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         return new InMemoryUserDetailsManager(user);
     }
-    public void method() {}
+    public void method() {
+        System.out.println("check");
+    }
 }
 
