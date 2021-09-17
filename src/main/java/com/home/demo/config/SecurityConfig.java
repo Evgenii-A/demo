@@ -45,11 +45,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         return new InMemoryUserDetailsManager(user);
     }
-
-    @Autowired
-    UserDetailsService service;
-    public void method() {
-        service.loadUserByUsername("nam");
-    }
 }
 
